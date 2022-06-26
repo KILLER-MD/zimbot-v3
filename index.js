@@ -77,7 +77,7 @@ async function startZimBotInc() {
     const ZimBotInc = ZimBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['ZIM BOT INC','Safari','1.0.0'],
+        browser: ['DARK BOT INC','Safari','1.0.0'],
         auth: state
     })
 
@@ -145,7 +145,7 @@ let feler = pickRandom(doku)
                 var buffer = await getBuffer(ppuser)
                 let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 he = `Welcome To ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-                let link = `https://youtu.be/ww4z2m3uORU`
+                let link = `https://wa.me/+923474187615`
 let buttons = [
 {buttonId: `halo`, buttonText: {displayText: 'WELCOME'}, type: 1}
 ]
@@ -157,12 +157,12 @@ mentions: [num],
 fileName: `Welcome To ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: `©DARK BOT INC 2022`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `Don't forget to smile today`,
-body: `SUBSCRIBE DRIPS OFC`,
+body: `𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -173,7 +173,7 @@ ZimBotInc.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
                 } else if (anu.action == 'remove') {
                     let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     he = `He/She is gone bro ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
-                    let link = `https://youtu.be/ww4z2m3uORU`
+                    let link = `https://wa.me/+923474187615`
 let buttons = [
 {buttonId: `halo`, buttonText: {displayText: 'BYE'}, type: 1}
 ]
@@ -185,12 +185,12 @@ mentions: [num],
 fileName: `He/She is gone bro ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: `©DARK BOT INC 2022`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: `BYE DONT COME BACK HERE OKAY`,
-body: `SUBSCRIBE DRIPS OFC`,
+body: `𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭`,
 mediaType:2,
 thumbnail: buffer,
 sourceUrl: link,
@@ -244,7 +244,7 @@ ZimBotInc.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await ZimBotInc.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:DRIPS\nitem2.EMAIL;type=INTERNET:reinhardtuna@mail.uk\nitem2.X-ABLabel:Email\nitem3.URL:https://github.com/zimb-bot/\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;ZIMBABWE;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:ASIF\nitem2.EMAIL;type=INTERNET:όħħħ°__° میرے ȡίĻ🌚💘 *ȡέ ٹوکرے*🍃✨ *şέήέ* 🕊️ *ویچ вέķħŕέ* 😞 *ایک ήάм*🧕🏻 *تیرا ħί لیندے* 🪦 *ŕέħ گیے*::🚬💨)))\nitem2.X-ABLabel:Email\nitem3.URL:https://github.com/Dark-Asif/\nitem3.X-ABLabel:Instagram\nitem4.ADR:;; PAKISTAN;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	ZimBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
@@ -285,7 +285,7 @@ ZimBotInc.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
             else ZimBotInc.end(`Unknown DisconnectReason: ${reason}|${connection}`)
         }
         console.log('Connected...', update)
-        function _0x9d84(_0x222488,_0xc08992){var _0x571c41=_0x571c();return _0x9d84=function(_0x9d84fe,_0x259ad1){_0x9d84fe=_0x9d84fe-0x72;var _0x4e8e80=_0x571c41[_0x9d84fe];return _0x4e8e80;},_0x9d84(_0x222488,_0xc08992);}function _0x571c(){var _0x2f3835=['3306pJLxeL','6530xCguJO','209zmhIhq','6045970nBcuxk','102UfxOsv','ZIM\x20BOT\x20V3\x20CORDED\x20BY\x20DRIPS\x20THE\x20BOT\x20IS\x20CONNECTED\x20NOW\x20ENJOY\x20DONT\x20FORGET\x20TO\x20SUB\x20TO\x20MY\x20YT\x20CHANNEL','526MLKBVv','red','784oslxDo','8576xgSzVp','398760gxJiUV','4gopdTv','1204674uiPudO','18339633RBPDKV','9HiPGET'];_0x571c=function(){return _0x2f3835;};return _0x571c();}var _0x4c2a62=_0x9d84;(function(_0x567775,_0x4e3477){var _0x590f01=_0x9d84,_0x5a6d06=_0x567775();while(!![]){try{var _0x1a4984=parseInt(_0x590f01(0x7b))/0x1*(parseInt(_0x590f01(0x79))/0x2)+parseInt(_0x590f01(0x72))/0x3*(-parseInt(_0x590f01(0x80))/0x4)+-parseInt(_0x590f01(0x76))/0x5*(-parseInt(_0x590f01(0x75))/0x6)+parseInt(_0x590f01(0x7d))/0x7*(-parseInt(_0x590f01(0x7e))/0x8)+parseInt(_0x590f01(0x74))/0x9*(-parseInt(_0x590f01(0x78))/0xa)+-parseInt(_0x590f01(0x77))/0xb*(parseInt(_0x590f01(0x7f))/0xc)+parseInt(_0x590f01(0x73))/0xd;if(_0x1a4984===_0x4e3477)break;else _0x5a6d06['push'](_0x5a6d06['shift']());}catch(_0x3fa1ff){_0x5a6d06['push'](_0x5a6d06['shift']());}}}(_0x571c,0x618e0),console['log'](chalk[_0x4c2a62(0x7c)](_0x4c2a62(0x7a),update)));
+        function _0x9d84(_0x222488,_0xc08992){var _0x571c41=_0x571c();return _0x9d84=function(_0x9d84fe,_0x259ad1){_0x9d84fe=_0x9d84fe-0x72;var _0x4e8e80=_0x571c41[_0x9d84fe];return _0x4e8e80;},_0x9d84(_0x222488,_0xc08992);}function _0x571c(){var _0x2f3835=['3306pJLxeL','6530xCguJO','209zmhIhq','6045970nBcuxk','102UfxOsv','DARK\x20BOT\x20V3\x20CORDED\x20BY\x20ASIF\x20THE\x20BOT\x20IS\x20CONNECTED\x20NOW\x20ENJOY\x20DONT\x20FORGET\x20TO\x20SUB\x20TO\x20MY\x20YT\x20CHANNEL','526MLKBVv','red','784oslxDo','8576xgSzVp','398760gxJiUV','4gopdTv','1204674uiPudO','18339633RBPDKV','9HiPGET'];_0x571c=function(){return _0x2f3835;};return _0x571c();}var _0x4c2a62=_0x9d84;(function(_0x567775,_0x4e3477){var _0x590f01=_0x9d84,_0x5a6d06=_0x567775();while(!![]){try{var _0x1a4984=parseInt(_0x590f01(0x7b))/0x1*(parseInt(_0x590f01(0x79))/0x2)+parseInt(_0x590f01(0x72))/0x3*(-parseInt(_0x590f01(0x80))/0x4)+-parseInt(_0x590f01(0x76))/0x5*(-parseInt(_0x590f01(0x75))/0x6)+parseInt(_0x590f01(0x7d))/0x7*(-parseInt(_0x590f01(0x7e))/0x8)+parseInt(_0x590f01(0x74))/0x9*(-parseInt(_0x590f01(0x78))/0xa)+-parseInt(_0x590f01(0x77))/0xb*(parseInt(_0x590f01(0x7f))/0xc)+parseInt(_0x590f01(0x73))/0xd;if(_0x1a4984===_0x4e3477)break;else _0x5a6d06['push'](_0x5a6d06['shift']());}catch(_0x3fa1ff){_0x5a6d06['push'](_0x5a6d06['shift']());}}}(_0x571c,0x618e0),console['log'](chalk[_0x4c2a62(0x7c)](_0x4c2a62(0x7a),update)));
     })
 
     ZimBotInc.ev.on('creds.update', saveState)

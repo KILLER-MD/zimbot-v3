@@ -68,7 +68,9 @@ const zimbot = JSON.parse(fs.readFileSync('./database/zimbot.json'))
 const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
-function _0x3ffd(_0x22e40d,_0x8b6ed7){var _0x25ef83=_0x25ef();return _0x3ffd=function(_0x3ffd57,_0x4f77da){_0x3ffd57=_0x3ffd57-0x19a;var _0x4e357b=_0x25ef83[_0x3ffd57];return _0x4e357b;},_0x3ffd(_0x22e40d,_0x8b6ed7);}var _0x271819=_0x3ffd;function _0x25ef(){var _0x25e15b=['2470796duzPRC','100','34785QnvGrw','3JLOgHn','10lHzcTb','4430TgvIQM','80wwDOfC','769389ZqwczQ','2651055KAKTWS','1577918TVzyll','2978058nQlgoT','455588SyPxaw','ZIM\x20BOT\x20INC'];_0x25ef=function(){return _0x25e15b;};return _0x25ef();}(function(_0x4b7bfe,_0x9203b4){var _0x4c1468=_0x3ffd,_0x200162=_0x4b7bfe();while(!![]){try{var _0x18c662=parseInt(_0x4c1468(0x19f))/0x1+-parseInt(_0x4c1468(0x1a1))/0x2*(parseInt(_0x4c1468(0x19b))/0x3)+parseInt(_0x4c1468(0x1a5))/0x4*(parseInt(_0x4c1468(0x19c))/0x5)+parseInt(_0x4c1468(0x1a2))/0x6+-parseInt(_0x4c1468(0x1a3))/0x7*(-parseInt(_0x4c1468(0x19e))/0x8)+-parseInt(_0x4c1468(0x19a))/0x9*(parseInt(_0x4c1468(0x19d))/0xa)+parseInt(_0x4c1468(0x1a0))/0xb;if(_0x18c662===_0x9203b4)break;else _0x200162['push'](_0x200162['shift']());}catch(_0x883288){_0x200162['push'](_0x200162['shift']());}}}(_0x25ef,0xd9bad),limitawal=_0x271819(0x1a6),botname=_0x271819(0x1a4),wm=_0x271819(0x1a4));
+limitawal = '100'
+botname = 'DARK BOT INC'
+wm = '𝒀𝒐𝒖𝒓 𝑫𝒓𝒆𝒂𝒎💛•🤍'
 limitCount = setting.limit
 
 //read database
@@ -87,7 +89,7 @@ const dripsno = JSON.parse(fs.readFileSync('./database/autoblock.json'))
 const dripswelcome = JSON.parse(fs.readFileSync('./database/welcome.json'))
 
 
-//////created by zim-bot-inc
+//////created by DARK-BOT-INC
 
 module.exports = ZimBotInc = async (ZimBotInc, m, chatUpdate, store) => {
     try {
@@ -254,7 +256,10 @@ if(time2 < "05:00:00"){
 var ucapannya2 = `Good morning 🌅`
 }
 
-var _0x10f373=_0x3e30;function _0x3e30(_0x20a962,_0xfdc4e2){var _0x59aa1f=_0x59aa();return _0x3e30=function(_0x3e30a6,_0x2d2799){_0x3e30a6=_0x3e30a6-0x9e;var _0xc32f23=_0x59aa1f[_0x3e30a6];return _0xc32f23;},_0x3e30(_0x20a962,_0xfdc4e2);}function _0x59aa(){var _0x2d09e9=['225656kDPSec','918188019676','reactmoji','996690JsMZbL','11081cnJcNA','🇿🇼','2MXuZUa','57245LtlNrA','13008580hIjOCs','2550987CqzHqP','1616zNjLPs','6mYAOrx','447441437150','27634090203','1681014qLKDBY','bothelp'];_0x59aa=function(){return _0x2d09e9;};return _0x59aa();}(function(_0x25d342,_0x5265c9){var _0x2985fa=_0x3e30,_0x35d609=_0x25d342();while(!![]){try{var _0x36987=-parseInt(_0x2985fa(0xac))/0x1*(-parseInt(_0x2985fa(0xab))/0x2)+parseInt(_0x2985fa(0xa0))/0x3*(-parseInt(_0x2985fa(0xa5))/0x4)+-parseInt(_0x2985fa(0xa8))/0x5+-parseInt(_0x2985fa(0xa3))/0x6+-parseInt(_0x2985fa(0xa9))/0x7*(parseInt(_0x2985fa(0x9f))/0x8)+-parseInt(_0x2985fa(0x9e))/0x9+parseInt(_0x2985fa(0xad))/0xa;if(_0x36987===_0x5265c9)break;else _0x35d609['push'](_0x35d609['shift']());}catch(_0x522621){_0x35d609['push'](_0x35d609['shift']());}}}(_0x59aa,0x27aff),global['botdev']=[_0x10f373(0xa2),_0x10f373(0xa1)],global[_0x10f373(0xa4)]=[_0x10f373(0xa6)],global[_0x10f373(0xa7)]=_0x10f373(0xaa));
+//botdev
+global.botdev = ['923474187615']
+global.bothelp = ['923474187615']
+global.reactmoji = "🇵🇰"
 
 //function rpg
    const { 
@@ -450,7 +455,7 @@ randek = jsonDrips[randIndex];
     
         // Push Message To Console && Auto Read
         if (m.message) {
-            console.log(chalk.blue(chalk.bgWhite('ZIMBOT')), chalk.whiteBright(chalk.bgRed(new Date)), chalk.black(chalk.bgRed(budy || m.mtype)) + '\n' + chalk.magenta('⦿ FROM'), chalk.bgYellowBright(pushname), chalk.bgGray(m.sender) + '\n' + chalk.bgCyanBright('RECIEVED'), chalk.yellowBright(m.isGroup ? pushname : 'DM', m.chat))
+            console.log(chalk.blue(chalk.bgWhite('DARKBOT')), chalk.whiteBright(chalk.bgRed(new Date)), chalk.black(chalk.bgRed(budy || m.mtype)) + '\n' + chalk.magenta('⦿ FROM'), chalk.bgYellowBright(pushname), chalk.bgGray(m.sender) + '\n' + chalk.bgCyanBright('RECIEVED'), chalk.yellowBright(m.isGroup ? pushname : 'DM', m.chat))
         }
 	
               if (global.dripsreadgroup) {
@@ -518,7 +523,7 @@ const reply = (teks) => {
 }
 
 const replay = (teks) => {
-    ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `BOT YOUTUBE CHANNEL `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Zimbot/drips.jpg`),"sourceUrl": `${global.group2}`}}}, { quoted: m})
+    ZimBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭 `, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./Zimbot/drips.jpg`),"sourceUrl": `${global.group2}`}}}, { quoted: m})
 }
 
 //dokumen random
@@ -635,7 +640,7 @@ function _0x3c50(_0x1b7fa7,_0x819da0){var _0x5f3986=_0x5f39();return _0x3c50=fun
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await ZimBotInc.setStatus(`ZIM-BOT-INC| BOT ONLINE: ${runtime(uptime)}`)
+		await ZimBotInc.setStatus(`DARK-BOT-INC| BOT ONLINE: ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -1305,12 +1310,12 @@ break
 case 'restart': {
              if (!isCreator) throw mess.owner              
              exec(`npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs`)
-             m.reply('*Restarting zimbot....*')
+             m.reply('*Restarting.....*')
              }
 break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 	    if (isBan) throw mess.ban
-                ZimBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/4e12bdfc0fbcbe7d14930.jpg' }, caption: `*Hi Chomie ${m.pushName}*\n\n *Thanks for your support we appreciate you we dont need your money, support us by subscribing to our youtube channel* *DRIPS OFC:* https://www.youtube.com/c/DRIPSOFC ` }, { quoted: m })
+                ZimBotInc.sendMessage(m.chat, { video: { url: 'https://a.uguu.se/cedjOfuW.mp4' }, caption: `*Hey ${m.pushName}*\n\n **~NO NEED TO PAY FOR THE BOT BRO I ALREADY KNOW THAT YOU LOVE DARKYBOT JOIN OUR SUPPORT GROUP~*\n\n https://chat.whatsapp.com/JcjjnS7oSbQ3FPCCNJT44M,* *𝒀𝒐𝒖𝒓 𝑫𝒓𝒆𝒂𝒎💛•🤍:* http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡ ⟵͇̽𓆩〭〬🔥⃪⃮⃔⃝🆂ɪ⃪͢ʟᴇɴᴛ🥀⟵͇̽ ` }, { quoted: m })
             }
             break            
             case 'chat': {
@@ -1730,7 +1735,7 @@ break
      ┗━━━━━━━━ 
     `
      for (let mem of participants) {
-                    teks += `🎪 @${mem.id.split('@')[0]}\n`
+                    teks += `☃️ @${mem.id.split('@')[0]}\n`
                     }
                     ZimBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
                     }
@@ -2457,7 +2462,7 @@ let drips = [
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `*Type some text*\n\nExample : ${prefix + command} ZIM-BOT-INC`
+                if (!text) throw `*Type some text*\n\nExample : ${prefix + command} DARK-BOT-INC`
                 let getGroups = await ZimBotInc.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -2467,10 +2472,10 @@ let drips = [
 		            let btn = [{
           urlButton: {
                   displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/Dark-Asif'
           }
                             }]
-                      let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
+                      let txt = `「 *DARKBOT BROADCAST* 」\n\n${text}`
                       ZimBotInc.send5ButImg(i, txt, botname, global.bc, btn)
                     }
                 m.reply(` *Send Broadcast To* ${anu.length} *Group*`)
@@ -2478,7 +2483,7 @@ let drips = [
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `*Type some text*\n\nExample : ${prefix + command} ZIM-BOT-INC`
+                if (!text) throw `*Type some text*\n\nExample : ${prefix + command} DARK-BOT-INC`
                 let anu = await store.chats.all().map(v => v.id)
                 m.reply(`*Send Broadcast To* ${anu.length} Chat\nTime ${anu.length * 1.5} second`)
 		for (let yoi of anu) {
@@ -2486,10 +2491,10 @@ let drips = [
 		    let btn = [{
           urlButton: {
                   displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/Dark-Asif'
           }
                             }]
-                      let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
+                      let txt = `「 *DARKBOT BROADCAST* 」\n\n${text}`
                       ZimBotInc.send5ButImg(yoi, txt, botname, global.bc, btn)
 		}
 		m.reply('*Success Broadcast*')
@@ -2512,14 +2517,14 @@ case 'bcimage': case 'bcvideo': case 'bcaudio': {
                 if (!isCreator) throw mess.owner
                 if (!/video/.test(mime) && !/image/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio/Image You Want to Broadcast With Caption* ${prefix + command}`
                 let anu = await store.chats.all().map(v => v.id)
-                let ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: 'ZIM-BOT-INC', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                let ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./lib/hisoka.jpg'), surface: 200, message: `DARK-BOT-INC`, orderTitle: 'DARK-BOT-INC', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 m.reply(`*Send Broadcast To* ${anu.length} *Group Chat, Time ${anu.length * 1.5} minutes*`)
                 for (let i of anu) {
                     await sleep(1500)
                     let butoon = [{
           urlButton: {
                   displayText: `GITHUB`,
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/Dark-Asif'
           }
                             },
                             {
@@ -3469,7 +3474,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
           displayText: `GITHUB`, 
-                  url: `https://github.com/zim-bot/zimbot-v3`
+                  url: `https://github.com/Dark-Asif`
           }
                             }, {
           quickReplyButton: {
@@ -3534,7 +3539,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
           displayText: `GITHUB`, 
-                  url: `https://github.com/zim-bot/zimbot-v3`
+                  url: `https://github.com/Dark-Asif`
           }
                             }, {
           quickReplyButton: {
@@ -3602,7 +3607,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 var capti = `
 *▊▊▊BEST VIDEO▊▊▊*
 
-*⬤▶━━━━━━━━━2:30*\n\n*⬤Title* : ${media.title}\n*⬤FILESIZE* : ${media.filesizeF}\n*⬤URL* : ${isUrl(text)}\n*⬤EXT* : MP3\n*⬤RESOLUTION* : ${args[1] || '360p'}\n\n*ZIM BOT INC*`
+*⬤▶━━━━━━━━━2:30*\n\n*⬤Title* : ${media.title}\n*⬤FILESIZE* : ${media.filesizeF}\n*⬤URL* : ${isUrl(text)}\n*⬤EXT* : MP3\n*⬤RESOLUTION* : ${args[1] || '360p'}\n\n*DARK BOT INC*`
                 var buf = await getBuffer(media.thumb)
                 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${capti}` }, { quoted: m })
                 ZimBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, jpegThumbnail:buf, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `*Downloading From ${text}*` }, { quoted: m }).catch((err) => m.reply('*error while sending the video*'))
@@ -4759,13 +4764,13 @@ hydratedContentText: listmn,
 hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'CONTACT',
+url: 'https://wa.me/+923474187615C'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/Dark-Asif'
 }
 }, {
 quickReplyButton: {
@@ -4868,7 +4873,7 @@ url: `${text}`
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/Dark-Asif'
 }
 }, {
 quickReplyButton: {
@@ -5199,7 +5204,7 @@ const result4 = `*▊▊▊MEDIAFIRE DL▊▊▊*
 *Size* : ${baby1[0].size}
 *Mime* : ${baby1[0].mime}
 *Link* : ${baby1[0].link}\n
-_whoa wait zimbot processing..._
+_whoa wait bot processing..._
 
 *ZIM BOT INC*`
 m.reply(`${result4}`)
@@ -6468,7 +6473,7 @@ ZimBotInc.sendMessage(m.chat, {image: {url: anu},viewOnce : true},{quoted: m })
         m.reply(res)
         });
         break
-        case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'zimbot': case 'drips':const _0x12fbc6=_0xa830;function _0x5a3e(){const _0x1d2e27=['\x0a┃┃\x0a┃🏮𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠\x20:\x20','ownername','Message','\x0a▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋\x0a▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋\x0a\x20+\x202\x207\x206\x20\x203\x20\x204\x20\x200\x20\x209\x20\x200\x202\x20\x200\x20\x203\x0a\x20','botname','\x0a\x0a╭▬▬❪\x20*ZIM\x20BOT\x20INC*❫▬▬▬\x0a┃🏮\x20*LIBRARY:*\x20Baileys-md\x0a┃┃\x0a┃🏮𝗕𝗢𝗧𝗡𝗔𝗠𝗘:\x20','1195460RyNtVa','\x0a┃┃\x0a┃🏮𝗢𝗪𝗡𝗘𝗥𝗡𝗔𝗠𝗘:\x20','LIST','key','6523785MZSaHJ','ZIM\x20BOT\x20IS\x20ALIVE','5878536uJnrmT','\x0a⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯\x0a\x0a*ZIMBOT\x20V3\x20WELCOMES\x20YOU*\x20','imageMessage','OWNER','owner','waUploadToServer','467946xkzyQz','uptime','2369958VHTLog','377875gbZphs','platform','ping','listmenu','chat','184vBAXES','SPEED','https://github.com/zim-bot/zimbot-v3','\x0a┃┃\x0a┃🏮𝗡𝗨𝗠𝗕𝗘𝗥:\x20','SUBSCRIBE','3595404noXmcO','GITHUB','relayMessage'];_0x5a3e=function(){return _0x1d2e27;};return _0x5a3e();}(function(_0x2241bd,_0x3fade8){const _0x5e1c6a=_0xa830,_0x587e66=_0x2241bd();while(!![]){try{const _0x19d1c9=parseInt(_0x5e1c6a(0x1aa))/0x1+parseInt(_0x5e1c6a(0x1a9))/0x2+-parseInt(_0x5e1c6a(0x1a7))/0x3+parseInt(_0x5e1c6a(0x1b4))/0x4+parseInt(_0x5e1c6a(0x19f))/0x5+parseInt(_0x5e1c6a(0x1a1))/0x6+parseInt(_0x5e1c6a(0x1bd))/0x7*(-parseInt(_0x5e1c6a(0x1af))/0x8);if(_0x19d1c9===_0x3fade8)break;else _0x587e66['push'](_0x587e66['shift']());}catch(_0x5934cf){_0x587e66['push'](_0x587e66['shift']());}}}(_0x5a3e,0xa1b18));function _0xa830(_0x4b8bc2,_0x133f6d){const _0x5a3e80=_0x5a3e();return _0xa830=function(_0xa83019,_0x49a73f){_0xa83019=_0xa83019-0x19f;let _0x58eca5=_0x5a3e80[_0xa83019];return _0x58eca5;},_0xa830(_0x4b8bc2,_0x133f6d);}{anu=_0x12fbc6(0x1a2)+pushname+_0x12fbc6(0x1bc)+global[_0x12fbc6(0x1bb)]+_0x12fbc6(0x1be)+global[_0x12fbc6(0x1b8)]+_0x12fbc6(0x1b2)+global[_0x12fbc6(0x1a5)]+_0x12fbc6(0x1b7)+os[_0x12fbc6(0x1ab)]()+'\x0a▙▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a🏮\x20*UPTIME:*\x20'+runtime(process[_0x12fbc6(0x1a8)]())+_0x12fbc6(0x1ba),drips=await getBuffer(picak+_0x12fbc6(0x1a0));let message=await prepareWAMessageMedia({'image':drips,'jpegThumbnail':drips},{'upload':ZimBotInc[_0x12fbc6(0x1a6)]});const template=generateWAMessageFromContent(m[_0x12fbc6(0x1ae)],proto[_0x12fbc6(0x1b9)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message[_0x12fbc6(0x1a3)],'hydratedContentText':anu,'hydratedFooterText':''+global['botname'],'hydratedButtons':[{'urlButton':{'displayText':_0x12fbc6(0x1b3),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x12fbc6(0x1b5),'url':_0x12fbc6(0x1b1)}},{'quickReplyButton':{'displayText':_0x12fbc6(0x1b0),'id':_0x12fbc6(0x1ac)}},{'quickReplyButton':{'displayText':_0x12fbc6(0x1a4),'id':_0x12fbc6(0x1a5)}},{'quickReplyButton':{'displayText':_0x12fbc6(0x1bf),'id':_0x12fbc6(0x1ad)}}]}}}),{'userJid':m['chat'],'quoted':m});ZimBotInc[_0x12fbc6(0x1b6)](m[_0x12fbc6(0x1ae)],template['message'],{'messageId':template[_0x12fbc6(0x1c0)]['id']});}
+        case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'darkbot': case 'asif':(function(_0x101070,_0x8524e7){const _0x3be372=_0x101070();function _0x4b0168(_0xb3915e,_0x38a8da){return _0x4ea3(_0x38a8da- -0x1d2,_0xb3915e);}while(!![]){try{const _0x48d125=parseInt(_0x4b0168(-0x39,-0x25))/0x1+-parseInt(_0x4b0168(-0x35,-0x38))/0x2+parseInt(_0x4b0168(-0x56,-0x46))/0x3+-parseInt(_0x4b0168(-0x4a,-0x3c))/0x4*(-parseInt(_0x4b0168(-0x50,-0x48))/0x5)+parseInt(_0x4b0168(-0x46,-0x45))/0x6*(-parseInt(_0x4b0168(-0x38,-0x3f))/0x7)+-parseInt(_0x4b0168(-0x33,-0x40))/0x8*(-parseInt(_0x4b0168(-0x2b,-0x2c))/0x9)+-parseInt(_0x4b0168(-0x2f,-0x2e))/0xa;if(_0x48d125===_0x8524e7)break;else _0x3be372['push'](_0x3be372['shift']());}catch(_0x47a7c5){_0x3be372['push'](_0x3be372['shift']());}}}(_0x30d4,0xecb71));function _0x2922d7(_0x392fc7,_0x2e5db9){return _0x4ea3(_0x2e5db9-0x20c,_0x392fc7);}const _0x12fbc6=_0xa830;function _0x5a3e(){function _0x183cf4(_0x10732d,_0x4d7832){return _0x4ea3(_0x10732d- -0x4c,_0x4d7832);}const _0x56cf96=[_0x183cf4(0x13d,0x14e),_0x183cf4(0x142,0x139),_0x183cf4(0x15d,0x158),_0x183cf4(0x13b,0x138),'botname','\x0a\x0a╭▬▬❪\x20*DARK\x20BOT\x20INC*❫▬▬▬\x0a┃🏮\x20*LIBRARY:*\x20Baileys-md\x0a┃┃\x0a┃🏮𝗕𝗢𝗧𝗡𝗔𝗠𝗘:\x20',_0x183cf4(0x143,0x140),_0x183cf4(0x151,0x147),_0x183cf4(0x150,0x156),_0x183cf4(0x14f,0x14f),_0x183cf4(0x152,0x145),'DARK\x20BOT\x20IS\x20ALIVE',_0x183cf4(0x13f,0x13b),_0x183cf4(0x15f,0x16e),'imageMessage',_0x183cf4(0x154,0x145),'owner',_0x183cf4(0x144,0x145),_0x183cf4(0x14c,0x150),_0x183cf4(0x159,0x148),_0x183cf4(0x157,0x165),_0x183cf4(0x14d,0x15c),_0x183cf4(0x153,0x165),_0x183cf4(0x149,0x14b),_0x183cf4(0x148,0x156),'chat','184vBAXES',_0x183cf4(0x156,0x152),_0x183cf4(0x15e,0x15d),_0x183cf4(0x15b,0x158),_0x183cf4(0x13c,0x12f),'3595404noXmcO',_0x183cf4(0x155,0x150),_0x183cf4(0x160,0x158)];return _0x5a3e=function(){return _0x56cf96;},_0x5a3e();}function _0x4ea3(_0x3ed700,_0x22700b){const _0x30d4e0=_0x30d4();return _0x4ea3=function(_0x4ea3e4,_0x300ace){_0x4ea3e4=_0x4ea3e4-0x186;let _0x39bc60=_0x30d4e0[_0x4ea3e4];return _0x39bc60;},_0x4ea3(_0x3ed700,_0x22700b);}(function(_0x3f81bf,_0x1c2c83){const _0x440fec=_0xa830,_0x2b0d25=_0x3f81bf();function _0x8ce119(_0x18415b,_0x3a4f8d){return _0x4ea3(_0x18415b-0x137,_0x3a4f8d);}while(!![]){try{const _0x490075=parseInt(_0x440fec(0x1aa))/0x1+parseInt(_0x440fec(0x1a9))/0x2+-parseInt(_0x440fec(0x1a7))/0x3+parseInt(_0x440fec(0x1b4))/0x4+parseInt(_0x440fec(0x19f))/0x5+parseInt(_0x440fec(0x1a1))/0x6+parseInt(_0x440fec(0x1bd))/0x7*(-parseInt(_0x440fec(0x1af))/0x8);if(_0x490075===_0x1c2c83)break;else _0x2b0d25[_0x8ce119(0x2df,0x2d1)](_0x2b0d25[_0x8ce119(0x2c8,0x2cd)]());}catch(_0x14d535){_0x2b0d25[_0x8ce119(0x2df,0x2e5)](_0x2b0d25[_0x8ce119(0x2c8,0x2c9)]());}}}(_0x5a3e,0xa1b18));function _0x30d4(){const _0x2df3f1=['\x0a▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋\x0a▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋▋\x0a\x20+\x209\x202\x203\x204\x207\x204\x201\x208\x207\x206\x201\x205\x0a\x20','CONTACT','\x0a┃┃\x0a┃🏮𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠\x20:\x20','1506595oDMkMO','5878536uJnrmT','5084151LIJgBT','204ltsKhQ','ownername','1195460RyNtVa','waUploadToServer','shift','8dxwTtD','254002omaAJZ','listmenu','ping','4jGvYWa','botname','467946xkzyQz','377875gbZphs','2926202UafWgC','key','LIST','\x0a┃┃\x0a┃🏮𝗢𝗪𝗡𝗘𝗥𝗡𝗔𝗠𝗘:\x20','6523785MZSaHJ','platform','OWNER','GITHUB','SPEED','2369958VHTLog','16815270yqNlLy','uptime','13792311FJSylx','\x0a┃┃\x0a┃🏮𝗡𝗨𝗠𝗕𝗘𝗥:\x20','push','Message','https://github.com/Dark-Asif','\x0a⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯⧯\x0a\x0a*DARKBOT\x20V3\x20WELCOMES\x20YOU*\x20','relayMessage','1819422PyqEbw','https://wa.me/+923474187615C'];_0x30d4=function(){return _0x2df3f1;};return _0x30d4();}function _0xa830(_0x5a1617,_0x2fbd01){const _0x280f53=_0x5a3e();return _0xa830=function(_0xad19b4,_0x55cf6e){_0xad19b4=_0xad19b4-0x19f;let _0x3cb1e5=_0x280f53[_0xad19b4];return _0x3cb1e5;},_0xa830(_0x5a1617,_0x2fbd01);}{anu=_0x12fbc6(0x1a2)+pushname+_0x12fbc6(0x1bc)+global[_0x12fbc6(0x1bb)]+_0x12fbc6(0x1be)+global[_0x12fbc6(0x1b8)]+_0x12fbc6(0x1b2)+global[_0x12fbc6(0x1a5)]+_0x12fbc6(0x1b7)+os[_0x12fbc6(0x1ab)]()+'\x0a▙▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a🏮\x20*UPTIME:*\x20'+runtime(process[_0x12fbc6(0x1a8)]())+_0x12fbc6(0x1ba),drips=await getBuffer(picak+_0x12fbc6(0x1a0));let message=await prepareWAMessageMedia({'image':drips,'jpegThumbnail':drips},{'upload':ZimBotInc[_0x12fbc6(0x1a6)]});const template=generateWAMessageFromContent(m[_0x12fbc6(0x1ae)],proto[_0x12fbc6(0x1b9)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message[_0x12fbc6(0x1a3)],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x2922d7(0x3a0,0x3a3)],'hydratedButtons':[{'urlButton':{'displayText':_0x12fbc6(0x1b3),'url':_0x2922d7(0x387,0x392)}},{'urlButton':{'displayText':_0x12fbc6(0x1b5),'url':_0x12fbc6(0x1b1)}},{'quickReplyButton':{'displayText':_0x12fbc6(0x1b0),'id':_0x12fbc6(0x1ac)}},{'quickReplyButton':{'displayText':_0x12fbc6(0x1a4),'id':_0x12fbc6(0x1a5)}},{'quickReplyButton':{'displayText':_0x12fbc6(0x1bf),'id':_0x12fbc6(0x1ad)}}]}}}),{'userJid':m['chat'],'quoted':m});ZimBotInc[_0x12fbc6(0x1b6)](m[_0x12fbc6(0x1ae)],template['message'],{'messageId':template[_0x12fbc6(0x1c0)]['id']});}
         
         break
         
@@ -6505,7 +6510,7 @@ if (q.includes('--help')) return m.reply(examkosong)
        let Levele = level.getLevelingLevel(m.sender, _level)
               let Xp = level.getLevelingXp(m.sender, _level)
               let Xplu = 10 * Math.pow(Levele, 2) + 50 * Levele + 100         
-     var profile = `*▊▊▊USER PROFILE ▊▊▊*\n\n⬤ *USERNAME:* ${pushname}\n⬤ *PREMIUM*: \n⬤ *ADMIN*: \n\n=_=_=_=_=_=_=_=_=_=_=_=_=\n\n*YOUR PROGRESS:*\n⬤ *YOUR LEVEL*: ${Levele}\n⬤ *YOUR XP*: (${Xp} / ${Xplu})\n*⬤ YOUR BLOOD* : ${getDarah(m.sender)}\n⬤ *YOUR IRON:* ${getBesi(m.sender)}\n⬤ *YOUR EMAS:* ${getEmas(m.sender)}\n⬤ *YOUR EMERALD* : ${getEmerald(m.sender)}\n⬤ *YOUR POTION* : ${getPotion(m.sender)}\n\n=_=_=_=_=_=_=_=_=_=_=_=_=\n\nHurry up:\n⬤ *YOUR FISH* : ${getIkan(m.sender)}\n⬤ *YOUR CHICKEN* : ${getAyam(m.sender)}\n⬤ *YOUR RABBIT* : ${getKelinci(m.sender)}\n⬤ *SHEEP* : ${getDomba(m.sender)}\n⬤ *YOUR COW* : ${getSapi(m.sender)}\n⬤ *YOUR ELEPHANTS* : ${getGajah(m.sender)}\n\n*ZIM BOT INC*`
+     var profile = `*▊▊▊USER PROFILE ▊▊▊*\n\n⬤ *USERNAME:* ${pushname}\n⬤ *PREMIUM*: \n⬤ *ADMIN*: \n\n=_=_=_=_=_=_=_=_=_=_=_=_=\n\n*YOUR PROGRESS:*\n⬤ *YOUR LEVEL*: ${Levele}\n⬤ *YOUR XP*: (${Xp} / ${Xplu})\n*⬤ YOUR BLOOD* : ${getDarah(m.sender)}\n⬤ *YOUR IRON:* ${getBesi(m.sender)}\n⬤ *YOUR EMAS:* ${getEmas(m.sender)}\n⬤ *YOUR EMERALD* : ${getEmerald(m.sender)}\n⬤ *YOUR POTION* : ${getPotion(m.sender)}\n\n=_=_=_=_=_=_=_=_=_=_=_=_=\n\nHurry up:\n⬤ *YOUR FISH* : ${getIkan(m.sender)}\n⬤ *YOUR CHICKEN* : ${getAyam(m.sender)}\n⬤ *YOUR RABBIT* : ${getKelinci(m.sender)}\n⬤ *SHEEP* : ${getDomba(m.sender)}\n⬤ *YOUR COW* : ${getSapi(m.sender)}\n⬤ *YOUR ELEPHANTS* : ${getGajah(m.sender)}\n\n*DARK BOT INC*`
      ZimBotInc.sendMessage(m.chat, { image: { url: ppuser }, jpegThumbnail: await getBuffer(ppuser), caption: `${profile}` }, { quoted: m }).catch((err) => m.reply('link error'))    
   }
   break
@@ -6705,11 +6710,16 @@ case 'listmenu': case 'list': {
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯`,
        footer: ZimBotInc.user.name,
        title: `${ucapannya2} ${pushname}`,
@@ -6720,7 +6730,7 @@ case 'listmenu': case 'list': {
       
      break
 
-case 'setmenu': const _0x82f741=_0x10db;function _0x10db(_0x237750,_0x385d3f){const _0x511702=_0x5117();return _0x10db=function(_0x10db44,_0x596302){_0x10db44=_0x10db44-0x7d;let _0x44663a=_0x511702[_0x10db44];return _0x44663a;},_0x10db(_0x237750,_0x385d3f);}function _0x5117(){const _0x55f57b=['4569NOCauN','3976QKgpog','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗟𝗢𝗖𝗔𝗧𝗜𝗢𝗡','success','templateGif','templateList','Change\x20menu\x20bot\x20to\x20Template\x20Image','templateLocation','setmenu\x20templateDoc','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗟𝗜𝗦𝗧','setmenu\x20templateList','414132SgZwnp','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗜𝗠𝗔𝗚𝗘','34413QPRLmc','setmenu\x20templateImage','settings','templateImage','117gNPFAM','*Hello\x20Owner\x20Cheers\x20to\x20that!*','templateMsg','Change\x20menu\x20bot\x20to\x20Template\x20Gif','916745ZKMUHO','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗠𝗘𝗦𝗦𝗔𝗚𝗘','408710BbeqRt','setmenu\x20templateMessage','templateDoc','reply','162Qmmgsv','name','owner','*Please\x20choose\x20the\x20menu\x20you\x20want\x20to\x20change!\x20I\x20hope\x20you\x20will\x20enjoy🔥*','575736LhEXlv','T𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗚𝗜𝗙','©️𝗭𝗜𝗠\x20𝗕𝗢𝗧\x20𝗜𝗡𝗖','sendListMsg','setmenu\x20templateLocation','CLICK\x20HERE','data','setmenu\x20templateGif','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗗𝗢𝗖𝗨𝗠𝗘𝗡𝗧','Change\x20menu\x20bot\x20to\x20Template\x20List','3504dkmSbr'];_0x5117=function(){return _0x55f57b;};return _0x5117();}(function(_0x1c5d29,_0x2a099d){const _0x52c262=_0x10db,_0x4d87c1=_0x1c5d29();while(!![]){try{const _0x4ea884=parseInt(_0x52c262(0x91))/0x1+-parseInt(_0x52c262(0x9f))/0x2*(-parseInt(_0x52c262(0x84))/0x3)+parseInt(_0x52c262(0xa3))/0x4+parseInt(_0x52c262(0x99))/0x5+-parseInt(_0x52c262(0x8f))/0x6+-parseInt(_0x52c262(0x85))/0x7*(-parseInt(_0x52c262(0x83))/0x8)+parseInt(_0x52c262(0x95))/0x9*(-parseInt(_0x52c262(0x9b))/0xa);if(_0x4ea884===_0x2a099d)break;else _0x4d87c1['push'](_0x4d87c1['shift']());}catch(_0x4f1045){_0x4d87c1['push'](_0x4d87c1['shift']());}}}(_0x5117,0x2097a));{if(!isCreator)throw mess[_0x82f741(0xa1)];let setbot=db[_0x82f741(0x7f)][_0x82f741(0x93)][botNumber];if(args[0x0]==='templateImage')setbot[_0x82f741(0x94)]=!![],setbot[_0x82f741(0x8b)]=![],setbot['templateGif']=![],setbot[_0x82f741(0x97)]=![],setbot[_0x82f741(0x89)]=![],setbot[_0x82f741(0x9d)]=![],m[_0x82f741(0x9e)](mess['success']);else{if(args[0x0]==='templateLocation')setbot['templateImage']=![],setbot[_0x82f741(0x8b)]=!![],setbot[_0x82f741(0x88)]=![],setbot[_0x82f741(0x97)]=![],setbot[_0x82f741(0x89)]=![],setbot['templateDoc']=![],m[_0x82f741(0x9e)](mess['success']);else{if(args[0x0]==='templateGif')setbot[_0x82f741(0x94)]=![],setbot[_0x82f741(0x8b)]=![],setbot[_0x82f741(0x88)]=!![],setbot[_0x82f741(0x97)]=![],setbot[_0x82f741(0x89)]=![],setbot['templateDoc']=![],m[_0x82f741(0x9e)](mess[_0x82f741(0x87)]);else{if(args[0x0]==='templateMessage')setbot[_0x82f741(0x94)]=![],setbot[_0x82f741(0x8b)]=![],setbot[_0x82f741(0x88)]=![],setbot[_0x82f741(0x97)]=!![],setbot[_0x82f741(0x89)]=![],setbot['templateDoc']=![],m[_0x82f741(0x9e)](mess[_0x82f741(0x87)]);else{if(args[0x0]===_0x82f741(0x89))setbot['templateImage']=![],setbot['templateLocation']=![],setbot[_0x82f741(0x88)]=![],setbot['templateMsg']=![],setbot[_0x82f741(0x89)]=!![],setbot['templateDoc']=![],m[_0x82f741(0x9e)](mess[_0x82f741(0x87)]);else{if(args[0x0]===_0x82f741(0x9d))setbot[_0x82f741(0x94)]=![],setbot[_0x82f741(0x8b)]=![],setbot[_0x82f741(0x88)]=![],setbot[_0x82f741(0x97)]=![],setbot['templateList']=![],setbot[_0x82f741(0x9d)]=!![],m['reply'](mess['success']);else{let sections=[{'title':_0x82f741(0xa5),'rows':[{'title':_0x82f741(0x90),'rowId':_0x82f741(0x92),'description':_0x82f741(0x8a)},{'title':_0x82f741(0x86),'rowId':_0x82f741(0x7d),'description':'Change\x20menu\x20bot\x20to\x20Template\x20Location'},{'title':_0x82f741(0xa4),'rowId':_0x82f741(0x80),'description':_0x82f741(0x98)},{'title':_0x82f741(0x9a),'rowId':_0x82f741(0x9c),'description':'Change\x20menu\x20bot\x20to\x20Template\x20Message'},{'title':_0x82f741(0x8d),'rowId':_0x82f741(0x8e),'description':_0x82f741(0x82)},{'title':_0x82f741(0x81),'rowId':_0x82f741(0x8c),'description':'Change\x20menu\x20bot\x20to\x20Template\x20Document'}]}];ZimBotInc[_0x82f741(0xa6)](m['chat'],_0x82f741(0xa2),ZimBotInc['user'][_0x82f741(0xa0)],_0x82f741(0x96),_0x82f741(0x7e),sections,m);}}}}}}}
+case 'setmenu': const _0x82f741=_0x10db;function _0x10db(_0x237750,_0x385d3f){const _0x511702=_0x5117();return _0x10db=function(_0x10db44,_0x596302){_0x10db44=_0x10db44-0x7d;let _0x44663a=_0x511702[_0x10db44];return _0x44663a;},_0x10db(_0x237750,_0x385d3f);}function _0x5117(){const _0x55f57b=['4569NOCauN','3976QKgpog','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗟𝗢𝗖𝗔𝗧𝗜𝗢𝗡','success','templateGif','templateList','Change\x20menu\x20bot\x20to\x20Template\x20Image','templateLocation','setmenu\x20templateDoc','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗟𝗜𝗦𝗧','setmenu\x20templateList','414132SgZwnp','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗜𝗠𝗔𝗚𝗘','34413QPRLmc','setmenu\x20templateImage','settings','templateImage','117gNPFAM','*Hello\x20Owner\x20Cheers\x20to\x20that!*','templateMsg','Change\x20menu\x20bot\x20to\x20Template\x20Gif','916745ZKMUHO','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗠𝗘𝗦𝗦𝗔𝗚𝗘','408710BbeqRt','setmenu\x20templateMessage','templateDoc','reply','162Qmmgsv','name','owner','*Please\x20choose\x20the\x20menu\x20you\x20want\x20to\x20change!\x20I\x20hope\x20you\x20will\x20enjoy🔥*','575736LhEXlv','T𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗚𝗜𝗙','©️𝗗𝗔𝗥𝗞\x20𝗕𝗢𝗧\x20𝗜𝗡𝗖','sendListMsg','setmenu\x20templateLocation','CLICK\x20HERE','data','setmenu\x20templateGif','𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘\x20𝗗𝗢𝗖𝗨𝗠𝗘𝗡𝗧','Change\x20menu\x20bot\x20to\x20Template\x20List','3504dkmSbr'];_0x5117=function(){return _0x55f57b;};return _0x5117();}(function(_0x1c5d29,_0x2a099d){const _0x52c262=_0x10db,_0x4d87c1=_0x1c5d29();while(!![]){try{const _0x4ea884=parseInt(_0x52c262(0x91))/0x1+-parseInt(_0x52c262(0x9f))/0x2*(-parseInt(_0x52c262(0x84))/0x3)+parseInt(_0x52c262(0xa3))/0x4+parseInt(_0x52c262(0x99))/0x5+-parseInt(_0x52c262(0x8f))/0x6+-parseInt(_0x52c262(0x85))/0x7*(-parseInt(_0x52c262(0x83))/0x8)+parseInt(_0x52c262(0x95))/0x9*(-parseInt(_0x52c262(0x9b))/0xa);if(_0x4ea884===_0x2a099d)break;else _0x4d87c1['push'](_0x4d87c1['shift']());}catch(_0x4f1045){_0x4d87c1['push'](_0x4d87c1['shift']());}}}(_0x5117,0x2097a));{if(!isCreator)throw mess[_0x82f741(0xa1)];let setbot=db[_0x82f741(0x7f)][_0x82f741(0x93)][botNumber];if(args[0x0]==='templateImage')setbot[_0x82f741(0x94)]=!![],setbot[_0x82f741(0x8b)]=![],setbot['templateGif']=![],setbot[_0x82f741(0x97)]=![],setbot[_0x82f741(0x89)]=![],setbot[_0x82f741(0x9d)]=![],m[_0x82f741(0x9e)](mess['success']);else{if(args[0x0]==='templateLocation')setbot['templateImage']=![],setbot[_0x82f741(0x8b)]=!![],setbot[_0x82f741(0x88)]=![],setbot[_0x82f741(0x97)]=![],setbot[_0x82f741(0x89)]=![],setbot['templateDoc']=![],m[_0x82f741(0x9e)](mess['success']);else{if(args[0x0]==='templateGif')setbot[_0x82f741(0x94)]=![],setbot[_0x82f741(0x8b)]=![],setbot[_0x82f741(0x88)]=!![],setbot[_0x82f741(0x97)]=![],setbot[_0x82f741(0x89)]=![],setbot['templateDoc']=![],m[_0x82f741(0x9e)](mess[_0x82f741(0x87)]);else{if(args[0x0]==='templateMessage')setbot[_0x82f741(0x94)]=![],setbot[_0x82f741(0x8b)]=![],setbot[_0x82f741(0x88)]=![],setbot[_0x82f741(0x97)]=!![],setbot[_0x82f741(0x89)]=![],setbot['templateDoc']=![],m[_0x82f741(0x9e)](mess[_0x82f741(0x87)]);else{if(args[0x0]===_0x82f741(0x89))setbot['templateImage']=![],setbot['templateLocation']=![],setbot[_0x82f741(0x88)]=![],setbot['templateMsg']=![],setbot[_0x82f741(0x89)]=!![],setbot['templateDoc']=![],m[_0x82f741(0x9e)](mess[_0x82f741(0x87)]);else{if(args[0x0]===_0x82f741(0x9d))setbot[_0x82f741(0x94)]=![],setbot[_0x82f741(0x8b)]=![],setbot[_0x82f741(0x88)]=![],setbot[_0x82f741(0x97)]=![],setbot['templateList']=![],setbot[_0x82f741(0x9d)]=!![],m['reply'](mess['success']);else{let sections=[{'title':_0x82f741(0xa5),'rows':[{'title':_0x82f741(0x90),'rowId':_0x82f741(0x92),'description':_0x82f741(0x8a)},{'title':_0x82f741(0x86),'rowId':_0x82f741(0x7d),'description':'Change\x20menu\x20bot\x20to\x20Template\x20Location'},{'title':_0x82f741(0xa4),'rowId':_0x82f741(0x80),'description':_0x82f741(0x98)},{'title':_0x82f741(0x9a),'rowId':_0x82f741(0x9c),'description':'Change\x20menu\x20bot\x20to\x20Template\x20Message'},{'title':_0x82f741(0x8d),'rowId':_0x82f741(0x8e),'description':_0x82f741(0x82)},{'title':_0x82f741(0x81),'rowId':_0x82f741(0x8c),'description':'Change\x20menu\x20bot\x20to\x20Template\x20Document'}]}];ZimBotInc[_0x82f741(0xa6)](m['chat'],_0x82f741(0xa2),ZimBotInc['user'][_0x82f741(0xa0)],_0x82f741(0x96),_0x82f741(0x7e),sections,m);}}}}}}}
             break
 
             case 'allmenu': case 'menu': case 'help': {
@@ -6748,11 +6758,16 @@ anu = `*✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
     
@@ -7308,17 +7323,17 @@ anu = `*✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 ┃⬤${prefix}ramaljodohbali
 ┗━━━━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+
 `
 let btn = [{
           urlButton: {
-                  displayText: 'SUBSCRIBE',
-                  url: 'https://www.youtube.com/c/DRIPSOFC'
+                  displayText: 'CONTACT',
+                  url: 'https://wa.me/+923474187615C'
           }
                             }, {
           urlButton: {
                   displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/Dark-Asif'
           }
                             }, {
           quickReplyButton: {
@@ -7347,13 +7362,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'CONTACT',
+url: 'https://wa.me/+923474187615C'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/Dark-Asif'
 }
 }, {
 quickReplyButton: {
@@ -7385,13 +7400,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'CONTACT',
+url: 'https://wa.me/+923474187615C'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/Dark-Asif'
 }
 }, {
 quickReplyButton: {
@@ -7423,13 +7438,13 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
                             hydratedFooterText: botname,
 hydratedButtons: [{
 urlButton: {
-displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+displayText: 'CONTACT',
+url: 'https://wa.me/+923474187615C'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/Dark-Asif'
 }
 }, {
 quickReplyButton: {
@@ -7490,11 +7505,16 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯`,
        footer: `ZIM BOT INC`,
        title: `*LIST MENU*`,
@@ -7503,7 +7523,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
        sections
       }, { quoted : m })
       } else if (setbot.templateDoc) {
-      const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://www.youtube.com/c/DRIPSOFC` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v3` } },
+      const buttonsDefault = [{ urlButton: { displayText: `CONTACT`, url : `https://wa.me/+923474187615C` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/Dark-Asif` } },
    {					
 					quickReplyButton: {
 						displayText: 'SPEED',
@@ -7543,13 +7563,13 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
 //hydratedFooterText: `${global.botname}`,
 //hydratedButtons: [{
 //urlButton: {
-//displayText: 'SUBSCRIBE',
-//url: 'https://www.youtube.com/c/DRIPSOFC'
+//displayText: 'CONTACT',
+//url: 'https://wa.me/+923474187615C'
 //}
 //}, {
 //urlButton: {
 //displayText: 'GITHUB',
-//url: 'https://github.com/zim-bot/zimbot-v3'
+//url: 'https://github.com/Dark-Asif'
 //}
 //}, {
 //quickReplyButton: {
@@ -7597,11 +7617,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -7619,9 +7644,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}menu
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-const _0x5c8923=_0x3878;(function(_0x4cbfbe,_0xacef25){const _0x8ea93=_0x3878,_0xf7c2ca=_0x4cbfbe();while(!![]){try{const _0x36f3fe=-parseInt(_0x8ea93(0x187))/0x1+parseInt(_0x8ea93(0x186))/0x2+-parseInt(_0x8ea93(0x193))/0x3+-parseInt(_0x8ea93(0x191))/0x4*(-parseInt(_0x8ea93(0x18e))/0x5)+parseInt(_0x8ea93(0x18a))/0x6+parseInt(_0x8ea93(0x190))/0x7*(-parseInt(_0x8ea93(0x18b))/0x8)+parseInt(_0x8ea93(0x189))/0x9*(-parseInt(_0x8ea93(0x192))/0xa);if(_0x36f3fe===_0xacef25)break;else _0xf7c2ca['push'](_0xf7c2ca['shift']());}catch(_0x414c20){_0xf7c2ca['push'](_0xf7c2ca['shift']());}}}(_0x123b,0x2f5d7));function _0x123b(){const _0x2f0f04=['fromObject','Message','key','727336srpvwq','384852AXndYJ','GITHUB','2250gziVnA','1729008psFOlG','16LNJOyb','SUBSCRIBE','imageMessage','10KCnDsr','chat','177163ETUuAR','532052VAkVia','9250iOSaTj','171405WytGWt','message'];_0x123b=function(){return _0x2f0f04;};return _0x123b();}let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc['waUploadToServer']});const template=generateWAMessageFromContent(m[_0x5c8923(0x18f)],proto[_0x5c8923(0x184)][_0x5c8923(0x183)]({'templateMessage':{'hydratedTemplate':{'imageMessage':message[_0x5c8923(0x18d)],'hydratedContentText':anu,'hydratedFooterText':''+global['botname'],'hydratedButtons':[{'urlButton':{'displayText':_0x5c8923(0x18c),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x5c8923(0x188),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x5c8923(0x18f)]});function _0x3878(_0x2496c4,_0xe8d08e){const _0x123b1e=_0x123b();return _0x3878=function(_0x387861,_0x2d31c4){_0x387861=_0x387861-0x183;let _0x8acd87=_0x123b1e[_0x387861];return _0x8acd87;},_0x3878(_0x2496c4,_0xe8d08e);}ZimBotInc['relayMessage'](m[_0x5c8923(0x18f)],template[_0x5c8923(0x194)],{'messageId':template[_0x5c8923(0x185)]['id']});
+const _0x5c8923=_0x3878;(function(_0x4cbfbe,_0xacef25){const _0x8ea93=_0x3878,_0xf7c2ca=_0x4cbfbe();while(!![]){try{const _0x36f3fe=-parseInt(_0x8ea93(0x187))/0x1+parseInt(_0x8ea93(0x186))/0x2+-parseInt(_0x8ea93(0x193))/0x3+-parseInt(_0x8ea93(0x191))/0x4*(-parseInt(_0x8ea93(0x18e))/0x5)+parseInt(_0x8ea93(0x18a))/0x6+parseInt(_0x8ea93(0x190))/0x7*(-parseInt(_0x8ea93(0x18b))/0x8)+parseInt(_0x8ea93(0x189))/0x9*(-parseInt(_0x8ea93(0x192))/0xa);if(_0x36f3fe===_0xacef25)break;else _0xf7c2ca['push'](_0xf7c2ca['shift']());}catch(_0x414c20){_0xf7c2ca['push'](_0xf7c2ca['shift']());}}}(_0x123b,0x2f5d7));function _0x123b(){const _0x2f0f04=['fromObject','Message','key','727336srpvwq','384852AXndYJ','GITHUB','2250gziVnA','1729008psFOlG','16LNJOyb','CONTACT','imageMessage','10KCnDsr','chat','177163ETUuAR','532052VAkVia','9250iOSaTj','171405WytGWt','message'];_0x123b=function(){return _0x2f0f04;};return _0x123b();}let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc['waUploadToServer']});const template=generateWAMessageFromContent(m[_0x5c8923(0x18f)],proto[_0x5c8923(0x184)][_0x5c8923(0x183)]({'templateMessage':{'hydratedTemplate':{'imageMessage':message[_0x5c8923(0x18d)],'hydratedContentText':anu,'hydratedFooterText':''+global['botname'],'hydratedButtons':[{'urlButton':{'displayText':_0x5c8923(0x18c),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x5c8923(0x188),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x5c8923(0x18f)]});function _0x3878(_0x2496c4,_0xe8d08e){const _0x123b1e=_0x123b();return _0x3878=function(_0x387861,_0x2d31c4){_0x387861=_0x387861-0x183;let _0x8acd87=_0x123b1e[_0x387861];return _0x8acd87;},_0x3878(_0x2496c4,_0xe8d08e);}ZimBotInc['relayMessage'](m[_0x5c8923(0x18f)],template[_0x5c8923(0x194)],{'messageId':template[_0x5c8923(0x185)]['id']});
                 }
             break
 case 'nsfwmenu': {
@@ -7645,11 +7670,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -7676,9 +7706,9 @@ let hao = randomNomor(200)
 ┃⬤ ${prefix}ahegao
 ┗━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x3217(_0x37715e,_0x2f6592){const _0xa94637=_0xa946();return _0x3217=function(_0x32173c,_0x1faa3c){_0x32173c=_0x32173c-0x123;let _0x3b0d30=_0xa94637[_0x32173c];return _0x3b0d30;},_0x3217(_0x37715e,_0x2f6592);}const _0x3ea3f4=_0x3217;(function(_0x329815,_0x3187af){const _0x1742ff=_0x3217,_0x11de18=_0x329815();while(!![]){try{const _0x2af702=parseInt(_0x1742ff(0x12e))/0x1*(-parseInt(_0x1742ff(0x133))/0x2)+-parseInt(_0x1742ff(0x132))/0x3*(parseInt(_0x1742ff(0x138))/0x4)+-parseInt(_0x1742ff(0x134))/0x5*(parseInt(_0x1742ff(0x127))/0x6)+parseInt(_0x1742ff(0x12f))/0x7*(parseInt(_0x1742ff(0x136))/0x8)+-parseInt(_0x1742ff(0x128))/0x9+-parseInt(_0x1742ff(0x129))/0xa+-parseInt(_0x1742ff(0x12b))/0xb*(-parseInt(_0x1742ff(0x131))/0xc);if(_0x2af702===_0x3187af)break;else _0x11de18['push'](_0x11de18['shift']());}catch(_0x573d7e){_0x11de18['push'](_0x11de18['shift']());}}}(_0xa946,0x26ed7));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x3ea3f4(0x130)]});function _0xa946(){const _0x2a0735=['imageMessage','127KwzpDy','7qrwpSX','waUploadToServer','12123564BOwpfZ','784317yPMltC','4158aFgTZO','97980uRbCpG','relayMessage','424624qYNVeq','https://www.youtube.com/c/DRIPSOFC','4SXNURK','chat','SUBSCRIBE','key','Message','84npVzAw','485649YpjWQW','501510MVGWCT','botname','11WGaHFz','https://github.com/zim-bot/zimbot-v3'];_0xa946=function(){return _0x2a0735;};return _0xa946();}const template=generateWAMessageFromContent(m[_0x3ea3f4(0x123)],proto[_0x3ea3f4(0x126)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message[_0x3ea3f4(0x12d)],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x3ea3f4(0x12a)],'hydratedButtons':[{'urlButton':{'displayText':_0x3ea3f4(0x124),'url':_0x3ea3f4(0x137)}},{'urlButton':{'displayText':'GITHUB','url':_0x3ea3f4(0x12c)}}]}}}),{'userJid':m['chat']});ZimBotInc[_0x3ea3f4(0x135)](m['chat'],template['message'],{'messageId':template[_0x3ea3f4(0x125)]['id']});
+function _0x3217(_0x37715e,_0x2f6592){const _0xa94637=_0xa946();return _0x3217=function(_0x32173c,_0x1faa3c){_0x32173c=_0x32173c-0x123;let _0x3b0d30=_0xa94637[_0x32173c];return _0x3b0d30;},_0x3217(_0x37715e,_0x2f6592);}const _0x3ea3f4=_0x3217;(function(_0x329815,_0x3187af){const _0x1742ff=_0x3217,_0x11de18=_0x329815();while(!![]){try{const _0x2af702=parseInt(_0x1742ff(0x12e))/0x1*(-parseInt(_0x1742ff(0x133))/0x2)+-parseInt(_0x1742ff(0x132))/0x3*(parseInt(_0x1742ff(0x138))/0x4)+-parseInt(_0x1742ff(0x134))/0x5*(parseInt(_0x1742ff(0x127))/0x6)+parseInt(_0x1742ff(0x12f))/0x7*(parseInt(_0x1742ff(0x136))/0x8)+-parseInt(_0x1742ff(0x128))/0x9+-parseInt(_0x1742ff(0x129))/0xa+-parseInt(_0x1742ff(0x12b))/0xb*(-parseInt(_0x1742ff(0x131))/0xc);if(_0x2af702===_0x3187af)break;else _0x11de18['push'](_0x11de18['shift']());}catch(_0x573d7e){_0x11de18['push'](_0x11de18['shift']());}}}(_0xa946,0x26ed7));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x3ea3f4(0x130)]});function _0xa946(){const _0x2a0735=['imageMessage','127KwzpDy','7qrwpSX','waUploadToServer','12123564BOwpfZ','784317yPMltC','4158aFgTZO','97980uRbCpG','relayMessage','424624qYNVeq','https://wa.me/+923474187615C','4SXNURK','chat','CONTACT','key','Message','84npVzAw','485649YpjWQW','501510MVGWCT','botname','11WGaHFz','https://github.com/Dark-Asif'];_0xa946=function(){return _0x2a0735;};return _0xa946();}const template=generateWAMessageFromContent(m[_0x3ea3f4(0x123)],proto[_0x3ea3f4(0x126)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message[_0x3ea3f4(0x12d)],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x3ea3f4(0x12a)],'hydratedButtons':[{'urlButton':{'displayText':_0x3ea3f4(0x124),'url':_0x3ea3f4(0x137)}},{'urlButton':{'displayText':'GITHUB','url':_0x3ea3f4(0x12c)}}]}}}),{'userJid':m['chat']});ZimBotInc[_0x3ea3f4(0x135)](m['chat'],template['message'],{'messageId':template[_0x3ea3f4(0x125)]['id']});
                 }
                 break
                 case 'expmenu': {
@@ -7703,10 +7733,10 @@ function _0x3217(_0x37715e,_0x2f6592){const _0xa94637=_0xa946();return _0x3217=f
                 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
                 ┃ 
                 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-                ┃https://tinyurl.com/2bghgjfx
+                ┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
                 ┃
                 ┃━━━━━━━━━━━━━━━━━━┃
-                ┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+                ┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
                 ╰━━━━━━━━━━━━━━━━━━╯
                 
                      
@@ -7722,9 +7752,9 @@ function _0x3217(_0x37715e,_0x2f6592){const _0xa94637=_0xa946();return _0x3217=f
                 ┃⬤${prefix}leaderboard
                 ┗━━━━━━━━━━⦿
                 
-                ©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+                ©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
                 `
-                function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+                function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
           }
             break
 case 'groupmenu': case 'grupmenu': {
@@ -7747,11 +7777,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -7794,9 +7829,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}ephemeral
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -7820,11 +7855,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -7873,9 +7913,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}instagramreal
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -7900,10 +7940,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃       𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -7942,9 +7982,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}twitterstalk
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -7968,11 +8008,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8019,9 +8064,9 @@ let hao = randomNomor(200)
 ┃ ${prefix}quotesanime
 ┗━━━━
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8045,11 +8090,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8125,9 +8175,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}summerysand
 ┗━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8152,10 +8202,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃     𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8174,9 +8224,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}sky-text
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8201,10 +8251,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃       𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8219,9 +8269,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}water-effect
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8246,10 +8296,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃     𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8267,9 +8317,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}goodgirlserti
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8294,10 +8344,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃     𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8318,9 +8368,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}triggeredwebp
 ┗━━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8344,11 +8394,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8371,9 +8426,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}tebak
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8398,10 +8453,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃     𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8438,9 +8493,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}ramaljodohbali
 ┗━━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8465,10 +8520,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃     𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8498,9 +8553,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}imagetopdf 
 ┗━━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8524,11 +8579,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8543,9 +8603,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}lockcmd 
 ┗━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8570,10 +8630,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃     𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8619,9 +8679,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}constrastbandw  
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8648,10 +8708,10 @@ let hao = randomNomor(200)
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
 ┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃     𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8663,9 +8723,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}anonymous
 ┗━━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8689,11 +8749,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8710,9 +8775,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}alquranaudio
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 case 'voicemenu': {
@@ -8735,11 +8800,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8757,7 +8827,7 @@ let hao = randomNomor(200)
 ┃⬤${prefix}nightcore 
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
 let message = await prepareWAMessageMedia({ image: buffer, jpegThumbnail:buffer }, { upload: ZimBotInc.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -8768,13 +8838,13 @@ hydratedContentText: anu,
 hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
     "urlButton": {
-      "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "displayText": "CONTACT",
+      "url": "https://wa.me/+923474187615C"
     }
 }, {
 urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/zim-bot/zimbot-v3'
+    url: 'https://github.com/Dark-Asif'
 }
 }
 ]
@@ -8805,11 +8875,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8829,9 +8904,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}magernulis6
 ┗━━━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 case 'internetmenu': {
@@ -8854,11 +8929,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8882,9 +8962,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}resepmasakan
 ┗━━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8908,11 +8988,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8921,9 +9006,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}tinyurl
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
@@ -8947,11 +9032,16 @@ let hao = randomNomor(200)
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃ 🌏🤍🖇️🕊️ 𝐎𝐡 𝐀𝐥𝐥𝐚𝐡 : 𝐈 𝐊𝐧𝐨𝐰 , 𝐈 𝐚𝐦 𝐧𝐨𝐭 𝐏𝐞𝐫𝐟𝐞𝐜𝐭 . 
+┃ 𝐁𝐮𝐭 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐦𝐚𝐤𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐛𝐞 𝐚 " 𝐌𝐮𝐬𝐥𝐢𝐦"- ❤🌸🐣🔐
+┃ 
+┃ OWNER ASIF KHAN
+┃ http://wa.me/923474187615❥𝄞•❥🂡্᭄͜͡♥️𝑳𝒐𝒗𝒆🤍🔐•❥🂡্᭄͜͡
+┃     
+┃♥️𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐈 𝐧𝐞𝐞𝐝 𝐭𝐨 𝐟𝐞𝐞𝐥 𝐜𝐨𝐦𝐩𝐥𝐞𝐭𝐞🌿🌎🔏
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
+┃      𝒔𝒐....𝒔𝒂𝒅.....𝒇𝒆𝒆𝒍𝒊𝒏𝒈💔😭
 ╰━━━━━━━━━━━━━━━━━━╯
 
      
@@ -8978,9 +9068,9 @@ let hao = randomNomor(200)
 ┃⬤${prefix}setppbot
 ┗━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖
+©️𝗗𝗔𝗥𝗞 𝗕𝗢𝗧 𝗜𝗡𝗖
 `
-function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','SUBSCRIBE'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://www.youtube.com/c/DRIPSOFC'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/zim-bot/zimbot-v3'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
+function _0x186b(){const _0x16c1b5=['135080AGrzDU','Message','GITHUB','10mzHMwO','chat','21bZsKRC','552424zUneQH','1429756BqfDSd','key','240mbdKBv','relayMessage','844052JLGZth','146104dkkfWS','1857480tcaVPE','595awiboR','16150698mclKJV','botname','waUploadToServer','CONTACT'];_0x186b=function(){return _0x16c1b5;};return _0x186b();}const _0x36f452=_0x131e;(function(_0x25c54b,_0x526416){const _0x54eaa5=_0x131e,_0x24b40d=_0x25c54b();while(!![]){try{const _0x437851=-parseInt(_0x54eaa5(0x193))/0x1+-parseInt(_0x54eaa5(0x1a0))/0x2+parseInt(_0x54eaa5(0x19e))/0x3*(-parseInt(_0x54eaa5(0x19f))/0x4)+parseInt(_0x54eaa5(0x199))/0x5*(parseInt(_0x54eaa5(0x1a2))/0x6)+-parseInt(_0x54eaa5(0x194))/0x7*(-parseInt(_0x54eaa5(0x1a5))/0x8)+parseInt(_0x54eaa5(0x195))/0x9*(parseInt(_0x54eaa5(0x19c))/0xa)+parseInt(_0x54eaa5(0x1a4))/0xb;if(_0x437851===_0x526416)break;else _0x24b40d['push'](_0x24b40d['shift']());}catch(_0x459222){_0x24b40d['push'](_0x24b40d['shift']());}}}(_0x186b,0xeba1d));let message=await prepareWAMessageMedia({'image':buffer,'jpegThumbnail':buffer},{'upload':ZimBotInc[_0x36f452(0x197)]});const template=generateWAMessageFromContent(m['chat'],proto[_0x36f452(0x19a)]['fromObject']({'templateMessage':{'hydratedTemplate':{'imageMessage':message['imageMessage'],'hydratedContentText':anu,'hydratedFooterText':''+global[_0x36f452(0x196)],'hydratedButtons':[{'urlButton':{'displayText':_0x36f452(0x198),'url':'https://wa.me/+923474187615C'}},{'urlButton':{'displayText':_0x36f452(0x19b),'url':'https://github.com/Dark-Asif'}}]}}}),{'userJid':m[_0x36f452(0x19d)]});function _0x131e(_0xb57061,_0x1d708f){const _0x186b37=_0x186b();return _0x131e=function(_0x131e55,_0x4245fa){_0x131e55=_0x131e55-0x193;let _0x47b1da=_0x186b37[_0x131e55];return _0x47b1da;},_0x131e(_0xb57061,_0x1d708f);}ZimBotInc[_0x36f452(0x1a3)](m[_0x36f452(0x19d)],template['message'],{'messageId':template[_0x36f452(0x1a1)]['id']});
                 }
             break
 
